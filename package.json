@@ -1,0 +1,26 @@
+{
+  "name": "contactbook-backend",
+  "version": "1.0.0",
+  "description": "Project xây dựng ứng dụng quản lý danh bạ Contactbook - Phần 2 MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest-api"
+  ],
+  "author": "Vo Van Hoi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
